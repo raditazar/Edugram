@@ -147,7 +147,7 @@ export default function ConnectWalletModal({ isOpen, onClose, buttonRef }: Conne
         style={!isMobile ? { top: `${position.top}px`, left: `${position.left}px` } : {}}
       >
         {/* Header */}
-        <div className="flex items-center justify-between p-4 border-b border-[#2a4980]">
+        <div className="flex items-center justify-between p-4 border-b border-[rgb(42,73,128)]">
           <h2 className="text-xl font-semibold text-white">Connect Wallet</h2>
           <button onClick={onClose} className="text-gray-300 hover:text-white">
             <X className="w-5 h-5" />

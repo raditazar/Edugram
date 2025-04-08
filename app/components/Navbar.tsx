@@ -18,6 +18,9 @@ const Navbar = () => {
         
         <Link href="/" className='font-semibold'>Home</Link>
         <Link href="/explore" className='font-semibold'>Explore</Link>
+        <Link href={`http://localhost:3300/auth/google`} className='font-semibold'>
+          Login with Google
+        </Link>
         {/* <button
           ref={connectButtonRef}
           onClick={() => setIsWalletModalOpen(true)}
