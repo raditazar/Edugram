@@ -76,7 +76,7 @@ export const addContentToDatabase = async ({
 }: {
   title: string;
   desc: string;
-  imagesLink: string[];
+  imagesLink: string;
   captions: string[];
 }): Promise<any> => {
   try {
