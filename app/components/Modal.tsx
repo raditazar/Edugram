@@ -39,9 +39,9 @@ const Modal: React.FC<ModalProps> = ({
     }
   };
 
-  useEffect(() => {
-    generateSuggestions();
-  }, [attributeType]);
+  // useEffect(() => {
+  //   generateSuggestions();
+  // }, [attributeType]);
 
   const handleSelectSuggestion = (text: string) => {
     setTempText(text);
@@ -51,7 +51,7 @@ const Modal: React.FC<ModalProps> = ({
     <div className="fixed inset-0 flex items-center justify-center bg-black/50 backdrop-blur-sm z-50">
       <div className="bg-white p-6 rounded-lg shadow-lg w-[600px] max-w-full relative">
         <h2 className="text-lg font-semibold text-center text-black capitalize">
-          Suggested {attributeType}
+          Suggested
         </h2>
 
         <textarea

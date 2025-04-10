@@ -22,6 +22,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
     "lucide-react": "^0.482.0",
     "next": "15.2.2",
     "next-auth": "^5.0.0-beta.25",
@@ -31,7 +32,7 @@
     "tailwind-merge": "^3.0.2",
     "tailwind-scrollbar-hide": "^2.0.0",
     "tailwindcss-animate": "^1.0.7",
-    "viem": "^2.25.0",
+    "viem": "^2.26.2",
     "wagmi": "^2.14.16"
   },
   "devDependencies": {
